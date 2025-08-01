@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Setheryd/AbolsuteAutoSciptApp",
+        "url": "https://github.com/Setheryd/AbolsuteAutoSciptApp",
+        "description": "Simple app for running all the Absolute Caregivers communicative listing scripts ",
+        "created_at": "2024-09-24T13:47:28Z",
+        "updated_at": "2025-08-01T15:57:15Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/Adhere-API",
+        "url": "https://github.com/Setheryd/Adhere-API",
+        "description": "Simple API that allows for quick Eligibility Status Checks",
+        "created_at": "2025-07-24T14:42:38Z",
+        "updated_at": "2025-07-31T18:28:51Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/Adhere-WebApp",
+        "url": "https://github.com/Setheryd/Adhere-WebApp",
+        "description": "Automated Compliance in a web app",
+        "created_at": "2025-04-11T20:21:33Z",
+        "updated_at": "2025-04-18T16:21:37Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/ClearChromeCache",
+        "url": "https://github.com/Setheryd/ClearChromeCache",
+        "description": "Set it and Forget it solution to clear your Chrome Cache at set intervals",
+        "created_at": "2025-03-26T20:18:58Z",
+        "updated_at": "2025-03-26T20:28:35Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/Dickwifbutt",
+        "url": "https://github.com/Setheryd/Dickwifbutt",
+        "description": null,
+        "created_at": "2024-11-19T15:59:29Z",
+        "updated_at": "2025-02-10T21:46:51Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/Hello-World",
+        "url": "https://github.com/Setheryd/Hello-World",
+        "description": null,
+        "created_at": "2024-03-14T14:39:06Z",
+        "updated_at": "2024-03-14T14:39:06Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/Pavillio-EMR-API",
+        "url": "https://github.com/Setheryd/Pavillio-EMR-API",
+        "description": "Read/Write to Pavillio EMR using exposed API ",
+        "created_at": "2025-03-10T14:33:40Z",
+        "updated_at": "2025-05-05T20:14:26Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/PrivatePayLTSS",
+        "url": "https://github.com/Setheryd/PrivatePayLTSS",
+        "description": "Web portal for Absolute Caregivers' private pay LTSS/HCBS clients. Built with Vite, Vue, Firebase, Stripe. Hosted on Vercel. Login, service selection, prepay.",
+        "created_at": "2025-05-12T20:14:45Z",
+        "updated_at": "2025-05-16T13:57:56Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/ShortQRL",
+        "url": "https://github.com/Setheryd/ShortQRL",
+        "description": "api to both generate qr codes and shorten links",
+        "created_at": "2025-03-06T01:51:22Z",
+        "updated_at": "2025-03-07T14:49:06Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/VirtueBuy",
+        "url": "https://github.com/Setheryd/VirtueBuy",
+        "description": null,
+        "created_at": "2025-03-18T20:27:13Z",
+        "updated_at": "2025-03-18T20:50:33Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/Visit-Note-Generation",
+        "url": "https://github.com/Setheryd/Visit-Note-Generation",
+        "description": null,
+        "created_at": "2024-06-13T18:55:28Z",
+        "updated_at": "2025-02-10T21:46:34Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/Waiver-Eligibility-Status",
+        "url": "https://github.com/Setheryd/Waiver-Eligibility-Status",
+        "description": null,
+        "created_at": "2024-06-14T19:47:40Z",
+        "updated_at": "2024-11-25T16:34:57Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/my-first-project",
+        "url": "https://github.com/Setheryd/my-first-project",
+        "description": "This is my first project on Github",
+        "created_at": "2024-03-14T15:25:15Z",
+        "updated_at": "2024-03-14T15:27:04Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/pokemon-card-analyzer",
+        "url": "https://github.com/Setheryd/pokemon-card-analyzer",
+        "description": "Uses a host of open source APIs in combination to evaluate, identify, and determine the value of Pokemon Cards",
+        "created_at": "2025-03-08T14:40:52Z",
+        "updated_at": "2025-03-08T15:44:20Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/riley-realty",
+        "url": "https://github.com/Setheryd/riley-realty",
+        "description": null,
+        "created_at": "2025-07-03T23:28:47Z",
+        "updated_at": "2025-07-03T23:31:05Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/rileyinvestmentgroup",
+        "url": "https://github.com/Setheryd/rileyinvestmentgroup",
+        "description": "rileyinvestmentgroup",
+        "created_at": "2025-08-01T01:06:31Z",
+        "updated_at": "2025-08-01T01:13:05Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/serverless_acceling_software_api_router",
+        "url": "https://github.com/Setheryd/serverless_acceling_software_api_router",
+        "description": "Next.js project connected to serverless Neon Postgres DB",
+        "created_at": "2025-06-03T14:51:03Z",
+        "updated_at": "2025-06-03T18:34:26Z",
+        "role": "owner"
+    },
+    {
+        "name": "Setheryd/seth-riley-portfolio",
+        "url": "https://github.com/Setheryd/seth-riley-portfolio",
+        "description": "seth-riley-portfolio",
+        "created_at": "2025-08-01T00:39:18Z",
+        "updated_at": "2025-08-01T00:47:13Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/Custom-Hotkeys",
+        "url": "https://github.com/luakitch/Custom-Hotkeys",
+        "description": null,
+        "created_at": "2024-06-11T18:52:34Z",
+        "updated_at": "2024-08-28T16:48:14Z",
+        "role": "collaborator"
+    }
+]

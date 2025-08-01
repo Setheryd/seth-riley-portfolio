@@ -1,0 +1,115 @@
+[
+   
+    {
+        "name": "luakitch/Acceling-Software",
+        "url": "https://github.com/luakitch/Acceling-Software",
+        "description": null,
+        "created_at": "2024-05-17T20:09:24Z",
+        "updated_at": "2025-07-21T19:11:41Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/AccelingSoftware-WebApp",
+        "url": "https://github.com/luakitch/AccelingSoftware-WebApp",
+        "description": null,
+        "created_at": "2025-03-31T14:21:19Z",
+        "updated_at": "2025-04-18T14:56:19Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/Adhere",
+        "url": "https://github.com/luakitch/Adhere",
+        "description": null,
+        "created_at": "2025-02-10T21:43:05Z",
+        "updated_at": "2025-07-23T13:37:20Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/Adhere-Releases",
+        "url": "https://github.com/luakitch/Adhere-Releases",
+        "description": null,
+        "created_at": "2025-07-08T17:28:42Z",
+        "updated_at": "2025-07-08T19:02:54Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/AiDGENT",
+        "url": "https://github.com/luakitch/AiDGENT",
+        "description": null,
+        "created_at": "2024-04-30T17:03:23Z",
+        "updated_at": "2024-08-28T13:23:57Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/AiDGENT-API",
+        "url": "https://github.com/luakitch/AiDGENT-API",
+        "description": null,
+        "created_at": "2025-07-23T16:10:36Z",
+        "updated_at": "2025-07-31T17:22:48Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/AiDGENT-Basic",
+        "url": "https://github.com/luakitch/AiDGENT-Basic",
+        "description": null,
+        "created_at": "2024-07-24T17:57:22Z",
+        "updated_at": "2024-09-09T17:02:46Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/AiDGENT-CM-Edition",
+        "url": "https://github.com/luakitch/AiDGENT-CM-Edition",
+        "description": null,
+        "created_at": "2025-01-31T14:24:12Z",
+        "updated_at": "2025-05-16T14:53:08Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/AiDGENT-CM-Edition-Archived",
+        "url": "https://github.com/luakitch/AiDGENT-CM-Edition-Archived",
+        "description": null,
+        "created_at": "2024-08-06T19:09:39Z",
+        "updated_at": "2025-01-31T14:11:49Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/AiDGENT-CME-WebApp",
+        "url": "https://github.com/luakitch/AiDGENT-CME-WebApp",
+        "description": null,
+        "created_at": "2025-04-02T14:56:40Z",
+        "updated_at": "2025-04-18T14:38:02Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/AiDGENT-Premium",
+        "url": "https://github.com/luakitch/AiDGENT-Premium",
+        "description": null,
+        "created_at": "2024-08-23T13:22:22Z",
+        "updated_at": "2025-07-21T19:07:22Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/AiDGENT-WebApp",
+        "url": "https://github.com/luakitch/AiDGENT-WebApp",
+        "description": null,
+        "created_at": "2025-03-31T14:20:30Z",
+        "updated_at": "2025-04-18T15:05:43Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/AiDGENT2.0",
+        "url": "https://github.com/luakitch/AiDGENT2.0",
+        "description": null,
+        "created_at": "2024-07-19T15:07:13Z",
+        "updated_at": "2024-07-24T18:13:40Z",
+        "role": "owner"
+    },
+    {
+        "name": "luakitch/AutoSyncPro-Electron",
+        "url": "https://github.com/luakitch/AutoSyncPro-Electron",
+        "description": null,
+        "created_at": "2024-10-29T15:15:58Z",
+        "updated_at": "2025-07-29T16:28:48Z",
+        "role": "owner"
+    }
+]

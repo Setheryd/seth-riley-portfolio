@@ -1,0 +1,83 @@
+{
+    "Setheryd/AbolsuteAutoSciptApp": {
+        "Python": 2931159,
+        "Batchfile": 815
+    },
+    "Setheryd/Adhere-API": {
+        "Python": 30215
+    },
+    "Setheryd/Adhere-WebApp": {
+        "JavaScript": 129954,
+        "CSS": 58418,
+        "HTML": 18154
+    },
+    "Setheryd/ClearChromeCache": {
+        "JavaScript": 1282,
+        "HTML": 558
+    },
+    "Setheryd/Dickwifbutt": {},
+    "Setheryd/Hello-World": {},
+    "Setheryd/Pavillio-EMR-API": {
+        "JavaScript": 23983
+    },
+    "Setheryd/PrivatePayLTSS": {
+        "Vue": 34477,
+        "JavaScript": 7633,
+        "CSS": 756,
+        "HTML": 500
+    },
+    "Setheryd/ShortQRL": {
+        "JavaScript": 4227
+    },
+    "Setheryd/VirtueBuy": {
+        "TypeScript": 16006,
+        "JavaScript": 2864,
+        "CSS": 180
+    },
+    "Setheryd/Visit-Note-Generation": {
+        "Python": 32906919,
+        "HTML": 1753773,
+        "TeX": 1677586,
+        "C++": 69394,
+        "C": 49159,
+        "PowerShell": 25697,
+        "JavaScript": 7255,
+        "Inno Setup": 2898,
+        "Classic ASP": 2117,
+        "XSLT": 2058,
+        "Batchfile": 1408,
+        "VBScript": 904
+    },
+    "Setheryd/Waiver-Eligibility-Status": {
+        "Python": 46495
+    },
+    "Setheryd/my-first-project": {
+        "HTML": 339,
+        "CSS": 256
+    },
+    "Setheryd/pokemon-card-analyzer": {
+        "JavaScript": 4740
+    },
+    "Setheryd/riley-realty": {
+        "TypeScript": 10374,
+        "JavaScript": 548,
+        "CSS": 374
+    },
+    "Setheryd/rileyinvestmentgroup": {
+        "JavaScript": 3352,
+        "CSS": 3339
+    },
+    "Setheryd/serverless_acceling_software_api_router": {
+        "JavaScript": 4518,
+        "CSS": 3355
+    },
+    "Setheryd/seth-riley-portfolio": {
+        "JavaScript": 3352,
+        "CSS": 3339
+    },
+    "luakitch/Custom-Hotkeys": {
+        "HTML": 247800,
+        "TeX": 42052,
+        "Python": 15829
+    }
+}

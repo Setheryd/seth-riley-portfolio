@@ -1,0 +1,6050 @@
+{
+    "NGArnold/RIMSProject": [
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"name\": \"rimsproject\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"version\": \"1.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"description\": \"Revive Inventory Management System\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main\": \"server.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"scripts\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"start\": \"node server.js\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"repository\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"type\": \"git\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"url\": \"git+https://github.com/NGArnold/RIMSProject.git\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"author\": \"Nolan Arnold, Dylan Banter, Joseph Frakes, Luke Kitchel, & Jadon Kosberg\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"license\": \"ISC\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"bugs\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"url\": \"https://github.com/NGArnold/RIMSProject/issues\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"homepage\": \"https://github.com/NGArnold/RIMSProject#readme\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"body-parser\": \"^1.19.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"bootstrap\": \"^5.1.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"client-sessions\": \"^0.8.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"express\": \"^4.17.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"express-handlebars\": \"^6.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"floatthead\": \"^2.2.4\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"jquery\": \"^3.6.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mongoose\": \"^6.2.10\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"sticky-table-headers\": \"^0.1.24\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        }
+    ],
+    "luakitch/API-Formula1": [
+        {
+            "package_name": "fastapi",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "uvicorn",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pandas",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "python-dotenv",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        }
+    ],
+    "luakitch/API-iRacingStandings": [],
+    "luakitch/Acceling-Software": [],
+    "luakitch/AccelingSoftware-Config-API": [],
+    "luakitch/AccelingSoftware-WebApp": [],
+    "luakitch/Adhere": [
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"name\": \"Adhere\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"version\": \"2.1.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main\": \"start.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"description\": \"Adhere\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"author\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"scripts\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"start\": \"cross-env NODE_ENV=development electron .\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"prebuild\": \"obfuscate.bat && rimraf dist\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": \"cross-env NODE_ENV=production electron-builder\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build:win\": \"cross-env NODE_ENV=production electron-builder --win\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"sign:win\": \"node sign-exe.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"release:checksum\": \"node update-hash.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"release:publish\": \"node -e \\\"const { version } = require('./package.json'); const tagName = 'v' + version; const setupFilePath = `dist/Adhere-Setup-${version}.exe`; const blockmapFilePath = `${setupFilePath}.blockmap`; const ymlFilePath = 'dist/latest.yml'; const { execSync } = require('child_process'); console.log(`\\\\\\\\n\ud83d\udce6 Preparing to publish release ${tagName} to Adhere-Releases...`); try { console.log('  - Creating git tag...'); execSync(`git tag ${tagName}`, { stdio: 'inherit' }); console.log('  - Pushing git tag to origin...'); execSync(`git push origin ${tagName}`, { stdio: 'inherit' }); console.log('  - Creating GitHub release and uploading assets...'); execSync(`gh release create ${tagName} --repo luakitch/Adhere-Releases --target main --generate-notes --title \\\\\\\"Adhere ${tagName}\\\\\\\" \\\\\\\"${setupFilePath}\\\\\\\" \\\\\\\"${blockmapFilePath}\\\\\\\" \\\\\\\"${ymlFilePath}\\\\\\\"`, { stdio: 'inherit' }); console.log(`\\\\\\\\n\u2705 Successfully published release ${tagName}!`); } catch (e) { console.error(`\\\\\\\\n\u274c Publishing failed. Please check the error message above. Make sure you have committed all your changes and are authenticated with 'gh auth login'.`); process.exit(1); }\\\"\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"release:win\": \"rimraf dist && npm run build:win && npm run sign:win && npm run release:checksum && npm run release:publish\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"postinstall\": \"electron-builder install-app-deps\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"test\": \"cross-env NODE_ENV=production TEST_MODE=packaged playwright test\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"assets/Adhere.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"appId\": \"com.accelingsoftware.adherepremium\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"productName\": \"Adhere\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"copyright\": \"Copyright 2024\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publish\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"provider\": \"github\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"owner\": \"luakitch\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"repo\": \"Adhere-Releases\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"private\": false",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"afterPack\": \"scripts/afterPack.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"directories\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"output\": \"dist\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"files\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"start.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"renderer-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"preload-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"decryptEnvFile.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"index.html\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"obf.js/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"scraping/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"css/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"assets/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package.json\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\".env.enc\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"README.md\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"splash.html\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"js/plotly.min.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"playwright-browsers/**/*\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"extraResources\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"playwright-browsers/**/*\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"win\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"assets/Adhere.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publisherName\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"executableName\": \"Adhere\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nsis\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"artifactName\": \"Adhere-Setup-${version}.${ext}\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"signAndEditExecutable\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"verifyUpdateCodeSignature\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"signingHashAlgorithms\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"sha256\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "]",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nsis\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"oneClick\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"allowToChangeInstallationDirectory\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"perMachine\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"allowElevation\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"deleteAppDataOnUninstall\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"artifactName\": \"${productName}-Setup-${version}.${ext}\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"createDesktopShortcut\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"createStartMenuShortcut\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"shortcutName\": \"Adhere\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"installerIcon\": \"assets/Adhere.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"uninstallerIcon\": \"assets/Adhere.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"installerHeaderIcon\": \"assets/Adhere.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"include\": \"build/installer.nsh\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"devDependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"@playwright/test\": \"^1.50.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"cross-env\": \"^7.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron\": \"^33.3.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-builder\": \"^24.13.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-rebuild\": \"^3.2.9\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-reload\": \"^2.0.0-alpha.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"glob\": \"^9.2.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"lru-cache\": \"^7.7.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"webpack\": \"^5.98.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"webpack-cli\": \"^6.0.1\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"better-sqlite3\": \"^11.7.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"calender\": \"^1.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"canvas\": \"3.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"chart.js\": \"^4.4.8\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"chokidar\": \"^4.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"combinations\": \"^1.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"combinations-generator\": \"^1.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"csv-parse\": \"^5.6.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dotenv\": \"^16.4.5\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-context-menu\": \"^4.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-is-dev\": \"^3.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-log\": \"^5.1.7\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-updater\": \"^6.2.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"javascript-obfuscator\": \"^4.1.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"luxon\": \"^3.4.4\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mysql\": \"github:mysqljs/mysql\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mysql2\": \"^3.11.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-fetch\": \"^3.3.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-machine-id\": \"^1.1.12\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-x12\": \"^1.7.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nodemailer\": \"^6.9.14\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"playwright\": \"^1.50.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"plotly.js-dist-min\": \"^3.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"rcedit\": \"^4.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"semver\": \"^7.7.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"soap\": \"^1.1.11\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"tmp\": \"^0.2.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"update-electron-app\": \"^3.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"uuid\": \"^11.1.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"winston\": \"^3.17.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"x12\": \"^1.0.4\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"xlsx\": \"^0.18.5\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"yargs\": \"^17.7.2\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"keywords\": [],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"license\": \"ISC\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        }
+    ],
+    "luakitch/Adhere-Releases": [],
+    "luakitch/AiDGENT": [
+        {
+            "package_name": "altgraph==0.17.4",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "Babel==2.15.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "certifi==2024.2.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "cffi==1.16.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "charset-normalizer==3.3.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "cryptography==42.0.5",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "customtkinter==5.2.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "darkdetect==0.8.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "distlib==0.3.8",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "et-xmlfile==1.1.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "filelock==3.14.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "idna==3.7",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "licensing==0.46",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "openpyxl==3.1.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "packaging==24.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pdfminer.six==20231228",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pdfplumber==0.11.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pefile==2023.2.7",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pillow==10.3.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pipenv==2023.12.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "platformdirs==4.2.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "py-machineid==0.5.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pycparser==2.22",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pyinstaller==6.6.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pyinstaller-hooks-contrib==2024.5",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pypdfium2==4.29.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "python-dotenv==1.0.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pytz==2024.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pywin32-ctypes==0.2.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "requests==2.31.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "setuptools==69.5.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "tkcalendar==1.6.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "tkinterdnd2==0.3.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "urllib3==2.2.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "virtualenv==20.26.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "winregistry==1.1.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "wand",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        }
+    ],
+    "luakitch/AiDGENT-API": [
+        {
+            "package_name": "annotated-types==0.7.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "ansicon==1.89.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "anyio==4.9.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "blessed==1.21.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "cachetools==5.5.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "certifi==2025.7.14",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "cffi==1.17.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "charset-normalizer==3.4.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "click==8.2.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "colorama==0.4.6",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "cryptography==45.0.5",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "dotenv==0.9.9",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "easyocr==1.7.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "editor==1.6.6",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "fastapi==0.116.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "filelock==3.18.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "fsspec==2025.7.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "google-ai-generativelanguage==0.6.15",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "google-api-core==2.25.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "google-api-python-client==2.177.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "google-auth==2.40.3",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "google-auth-httplib2==0.2.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "google-generativeai==0.8.5",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "googleapis-common-protos==1.70.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "grpcio==1.74.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "grpcio-status==1.71.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "gunicorn==23.0.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "h11==0.16.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "httpcore==1.0.9",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "httplib2==0.22.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "httptools==0.6.4",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "httpx==0.28.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "idna==3.10",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "imageio==2.37.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "iniconfig==2.1.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "inquirer==3.4.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "Jinja2==3.1.6",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "jinxed==1.3.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "joblib==1.5.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "lazy_loader==0.4",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "MarkupSafe==3.0.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "mpmath==1.3.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "networkx==3.5",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "ninja==1.11.1.4",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "numpy==2.2.6",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "opencv-python-headless==4.12.0.88",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "packaging==25.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pandas==2.3.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pdf2image==1.17.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pdfminer.six==20250506",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pdfplumber==0.11.7",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pillow==11.3.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pluggy==1.6.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "proto-plus==1.26.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "protobuf==5.29.5",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pyasn1==0.6.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pyasn1_modules==0.4.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pyclipper==1.3.0.post6",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pycparser==2.22",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pydantic==2.11.7",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pydantic-settings==2.10.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pydantic_core==2.33.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "Pygments==2.19.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pyparsing==3.2.3",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pypdfium2==4.30.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pytest==8.4.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "python-bidi==0.6.6",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "python-dateutil==2.9.0.post0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "python-dotenv==1.1.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "python-multipart==0.0.20",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "pytz==2025.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "PyYAML==6.0.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "readchar==4.2.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "requests==2.32.4",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "rsa==4.9.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "runs==1.2.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "scikit-image==0.25.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "scikit-learn==1.7.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "scipy==1.16.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "shapely==2.1.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "six==1.17.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "sniffio==1.3.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "starlette==0.47.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "sympy==1.14.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "threadpoolctl==3.6.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "tifffile==2025.6.11",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "torch==2.7.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "torchaudio==2.7.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "torchvision==0.22.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "tqdm==4.67.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "typing-inspection==0.4.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "typing_extensions==4.14.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "tzdata==2025.2",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "uritemplate==4.2.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "urllib3==2.5.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "uvicorn==0.35.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "watchfiles==1.1.0",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "wcwidth==0.2.13",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "websockets==15.0.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        },
+        {
+            "package_name": "xmod==1.8.1",
+            "version": "N/A",
+            "ecosystem": "pip",
+            "source_file": "requirements.txt"
+        }
+    ],
+    "luakitch/AiDGENT-Basic": [
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"name\": \"aidgent-basic\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"version\": \"1.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main\": \"main-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"description\": \"Custom Schedule Creation Tool\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"author\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"scripts\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"start\": \"electron .\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": \"electron-builder\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"prepare\": \"npm install\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package-win\": \"electron-builder --win nsis -p never\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"appId\": \"https://www.accelingsoftware.com/products/aidgent\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"productName\": \"AiDGENT (Basic)\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"copyright\": \"\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"directories\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"output\": \"dist\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"files\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"renderer-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"preload-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"decryptEnvFile-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"index.html\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"obf.js/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"css/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"assets/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node_modules/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package.json\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package-lock.json\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\".env.enc\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"README.md\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"splash.html\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"extraFiles\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\".env.enc\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mac\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"category\": \"public.app-category.utilities\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"zip\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dmg\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publish\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"provider\": \"generic\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"url\": \"https://accelingsoftware.com/version_history/AiDGENT-Basic/mac/\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "]",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"win\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publisherName\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publish\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"provider\": \"generic\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"url\": \"https://accelingsoftware.com/version_history/AiDGENT-Basic/win/\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nsis\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"artifactName\": \"AiDGENT-Basic-Setup-${version}.${ext}\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"signAndEditExecutable\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"verifyUpdateCodeSignature\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"signingHashAlgorithms\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"sha256\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "]",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"linux\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"AppImage\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"tar.gz\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "]",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dmg\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"background\": \"assets/banner design.png\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"title\": \"AiDGENT (Basic) Installer\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nsis\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"oneClick\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"allowToChangeInstallationDirectory\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"perMachine\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"allowElevation\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"deleteAppDataOnUninstall\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"artifactName\": \"${productName}-Setup-${version}.${ext}\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"createDesktopShortcut\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"createStartMenuShortcut\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"installerIcon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"uninstallerIcon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"installerHeaderIcon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"shortcutName\": \"AiDGENT (Basic)\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publish\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"provider\": \"github\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"owner\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"repo\": \"Custom Schedule Creation Tool\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"vPrefixedTagName\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"private\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"releaseType\": \"draft\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "]",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"devDependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"cross-env\": \"^7.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron\": \"^31.2.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-builder\": \"^24.13.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-packager\": \"^17.1.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"glob\": \"^9.2.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"lru-cache\": \"^7.7.1\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"calender\": \"^1.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"combinations\": \"^1.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"combinations-generator\": \"^1.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dotenv\": \"^16.4.5\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-context-menu\": \"^4.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-log\": \"^5.1.7\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-updater\": \"^6.2.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"luxon\": \"^3.4.4\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mysql\": \"github:mysqljs/mysql\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mysql2\": \"^3.11.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-fetch\": \"^3.3.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-machine-id\": \"^1.1.12\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nodemailer\": \"^6.9.14\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdfjs-dist\": \"^4.4.168\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"update-electron-app\": \"^3.0.0\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"keywords\": [],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"license\": \"ISC\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        }
+    ],
+    "luakitch/AiDGENT-CM-Edition": [
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"name\": \"AiDGENT(CME)\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"version\": \"1.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main\": \"start.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"description\": \"AiDGENT(CME)\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"author\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"scripts\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"start\": \"cross-env NODE_ENV=development electron .\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"prebuild\": \"obfuscate.bat && rimraf dist\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": \"cross-env NODE_ENV=production electron-builder\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"postbuild\": \"node sign-exe.js && node update-hash.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package-win\": \"electron-builder --win nsis -p never\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"postinstall\": \"electron-builder install-app-deps\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"test\": \"cross-env NODE_ENV=development playwright test\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"appId\": \"com.accelingsoftware.aidgentcme\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"productName\": \"AiDGENT(CME)\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"copyright\": \"Copyright 2024\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"afterPack\": \"scripts/afterPack.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"directories\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"output\": \"dist\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"files\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"start.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"renderer-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"preload-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"decryptEnvFile.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"index.html\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"obf.js/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"js/ocr.mjs\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"css/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"assets/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package.json\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\".env.enc\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"README.md\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"splash.html\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"User_Agreement.html\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"asarUnpack\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"assets/**/*\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"extraResources\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"from\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"to\": \"assets/AiDGENT.ico\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"win\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publisherName\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"executableName\": \"AiDGENT(CME)\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publish\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"provider\": \"generic\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"url\": \"https://accelingsoftware.com/version_history/AiDGENT-CME/win/\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nsis\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"artifactName\": \"AiDGENT-CME-Setup-${version}.${ext}\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"signAndEditExecutable\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"verifyUpdateCodeSignature\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"signingHashAlgorithms\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"sha256\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "]",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nsis\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"oneClick\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"allowToChangeInstallationDirectory\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"perMachine\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"allowElevation\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"deleteAppDataOnUninstall\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"artifactName\": \"${productName}-Setup-${version}.${ext}\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"createDesktopShortcut\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"createStartMenuShortcut\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"shortcutName\": \"AiDGENT(CME)\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"installerIcon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"uninstallerIcon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"installerHeaderIcon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"include\": \"build/installer.nsh\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"devDependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"@playwright/test\": \"^1.50.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"cross-env\": \"^7.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron\": \"^33.3.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-builder\": \"^24.13.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-rebuild\": \"^3.2.9\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-reload\": \"^2.0.0-alpha.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"glob\": \"^9.2.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"lru-cache\": \"^7.7.1\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"better-sqlite3\": \"^11.7.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"calender\": \"^1.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"canvas\": \"3.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"combinations\": \"^1.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"combinations-generator\": \"^1.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dotenv\": \"^16.4.5\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-context-menu\": \"^4.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-log\": \"^5.1.7\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-updater\": \"^6.2.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"luxon\": \"^3.4.4\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mysql\": \"github:mysqljs/mysql\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mysql2\": \"^3.11.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-fetch\": \"^3.3.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-machine-id\": \"^1.1.12\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nodemailer\": \"^6.9.14\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdf-parse\": \"^1.1.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdf-table-extractor\": \"^1.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdf2table\": \"^0.0.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdfjs-dist-latest\": \"npm:pdfjs-dist@latest\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdfjs-dist-ocr\": \"npm:pdfjs-dist@^3.11.174\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"rcedit\": \"^4.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"tesseract.js\": \"^5.1.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"update-electron-app\": \"^3.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"winston\": \"^3.17.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"yargs\": \"^17.7.2\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"keywords\": [],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"license\": \"ISC\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        }
+    ],
+    "luakitch/AiDGENT-CM-Edition-Archived": [
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"name\": \"aidgent-cm-edition\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"version\": \"1.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main\": \"main.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"description\": \"Custom Schedule Creation Tool\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"author\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"scripts\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"start\": \"electron .\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": \"electron-builder\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"prepare\": \"npm install\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package-win\": \"electron-builder --win nsis -p never\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"appId\": \"https://www.accelingsoftware.com/products/aidgent-cm\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"productName\": \"AiDGENT (CM Edition)\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"copyright\": \"\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"directories\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"output\": \"dist\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"files\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"index.html\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"renderer-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"preload-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"css/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"obf.js/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"assets/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node_modules/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package.json\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package-lock.json\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\".env.enc\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"README.md\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"splash.html\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"decryptEnvFile-obf.js\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"extraFiles\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\".env.enc\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mac\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"category\": \"public.app-category.utilities\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"zip\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dmg\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publish\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"provider\": \"generic\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"url\": \"https://accelingsoftware.com/Version_History/mac/\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "]",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"win\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publisherName\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publish\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"provider\": \"generic\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"url\": \"https://accelingsoftware.com/Version_History/win/\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nsis\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"artifactName\": \"AiDGENT-CM-Edition-Setup-${version}.${ext}\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"signAndEditExecutable\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"verifyUpdateCodeSignature\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"signingHashAlgorithms\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"sha256\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "]",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"linux\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"AppImage\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"tar.gz\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "]",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dmg\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"background\": \"assets/banner design.png\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"title\": \"AiDGENT (CM Edition) Installer\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nsis\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"oneClick\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"allowToChangeInstallationDirectory\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"perMachine\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"allowElevation\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"deleteAppDataOnUninstall\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"artifactName\": \"${productName}-Setup-${version}.${ext}\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"createDesktopShortcut\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"createStartMenuShortcut\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"installerIcon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"uninstallerIcon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"installerHeaderIcon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"shortcutName\": \"AiDGENT (CM Edition)\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publish\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"provider\": \"github\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"owner\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"repo\": \"Custom Schedule Creation Tool\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"vPrefixedTagName\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"private\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"releaseType\": \"draft\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "]",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"devDependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"cross-env\": \"^7.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron\": \"^31.2.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-builder\": \"^24.13.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-packager\": \"^17.1.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"glob\": \"^9.2.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"lru-cache\": \"^7.7.1\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"calender\": \"^1.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"combinations\": \"^1.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"combinations-generator\": \"^1.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dotenv\": \"^16.4.5\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-context-menu\": \"^4.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-log\": \"^5.1.7\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-updater\": \"^6.2.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"luxon\": \"^3.4.4\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-fetch\": \"^3.3.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-machine-id\": \"^1.1.12\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nodemailer\": \"^6.9.14\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdfjs-dist\": \"^4.4.168\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"update-electron-app\": \"^3.0.0\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        }
+    ],
+    "luakitch/AiDGENT-CME-WebApp": [],
+    "luakitch/AiDGENT-Premium": [
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"name\": \"AiDGENT(Premium)\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"version\": \"2.3.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main\": \"start.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"description\": \"AiDGENT(Premium)\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"author\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"scripts\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"start\": \"cross-env NODE_ENV=development electron .\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"prebuild\": \"obfuscate.bat && rimraf dist\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": \"cross-env NODE_ENV=production electron-builder\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"postbuild\": \"node sign-exe.js && node update-hash.js && npm test\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package-win\": \"electron-builder --win nsis -p never\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"postinstall\": \"electron-builder install-app-deps\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"test\": \"cross-env TEST_MODE=packaged playwright test\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"appId\": \"com.accelingsoftware.aidgentpremium\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"productName\": \"AiDGENT(Premium)\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"copyright\": \"Copyright 2024\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"afterPack\": \"scripts/afterPack.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"directories\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"output\": \"dist\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"files\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"start.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"renderer-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"preload-obf.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"index.html\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"obf.js/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"js/ocr.mjs\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"css/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"assets/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package.json\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\".env.enc\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"README.md\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"splash.html\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"User_Agreement.html\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"asarUnpack\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"assets/**/*\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"extraResources\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"from\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"to\": \"assets/AiDGENT.ico\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"win\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publisherName\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"executableName\": \"AiDGENT(Premium)\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publish\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"provider\": \"generic\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"url\": \"https://accelingsoftware.com/version_history/AiDGENT-Premium/win/\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nsis\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"artifactName\": \"AiDGENT-Premium-Setup-${version}.${ext}\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"signAndEditExecutable\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"verifyUpdateCodeSignature\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"signingHashAlgorithms\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"sha256\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "]",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nsis\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"oneClick\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"allowToChangeInstallationDirectory\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"perMachine\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"allowElevation\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"deleteAppDataOnUninstall\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"artifactName\": \"${productName}-Setup-${version}.${ext}\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"createDesktopShortcut\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"createStartMenuShortcut\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"shortcutName\": \"AiDGENT(Premium)\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"installerIcon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"uninstallerIcon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"installerHeaderIcon\": \"assets/AiDGENT.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"include\": \"build/installer.nsh\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"devDependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"@playwright/test\": \"^1.50.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"cross-env\": \"^7.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron\": \"^33.3.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-builder\": \"^25.1.8\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-rebuild\": \"^3.2.9\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-reload\": \"^2.0.0-alpha.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"glob\": \"^9.2.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"js-yaml\": \"^4.1.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"lru-cache\": \"^7.7.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"playwright\": \"^1.50.1\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"axios\": \"^1.8.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"better-sqlite3\": \"^11.7.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"calender\": \"^1.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"combinations\": \"^1.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"combinations-generator\": \"^1.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dotenv\": \"^16.4.5\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-context-menu\": \"^4.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-log\": \"^5.1.7\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-updater\": \"^6.2.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"javascript-obfuscator\": \"^4.1.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"luxon\": \"^3.4.4\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mysql\": \"github:mysqljs/mysql\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mysql2\": \"^3.11.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-fetch\": \"^3.3.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-machine-id\": \"^1.1.12\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-poppler\": \"^8.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nodemailer\": \"^6.9.14\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdf-parse\": \"^1.1.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdf-table-extractor\": \"^1.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdf2table\": \"^0.0.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdfjs-dist-latest\": \"npm:pdfjs-dist@latest\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"rcedit\": \"^4.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"tesseract.js\": \"^5.1.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"tmp\": \"^0.2.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"update-electron-app\": \"^3.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"winston\": \"^3.17.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"yargs\": \"^17.7.2\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"keywords\": [],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"license\": \"ISC\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        }
+    ],
+    "luakitch/AiDGENT-WebApp": [
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"name\": \"aidgent\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"private\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"version\": \"0.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"type\": \"module\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"scripts\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"start\": \"vite\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": \"vite build\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"preview\": \"vite preview\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"devDependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"vite\": \"^6.2.0\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"firebase\": \"^11.6.0\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        }
+    ],
+    "luakitch/AiDGENT2.0": [
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"name\": \"electron-app\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"version\": \"1.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main\": \"main.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"scripts\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"start\": \"electron .\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": \"electron-builder\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"prepare\": \"npm install\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package-win\": \"electron-packager . Aidgent --platform=win32 --arch=x64 --out=dist --overwrite\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"appId\": \"com.example.electronapp\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"productName\": \"AiDGENT\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"directories\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"output\": \"dist\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"files\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"index.html\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"renderer.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"style.css\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"favicon_package/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"preload1.js\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mac\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": \"dmg\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"win\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": \"nsis\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"linux\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": \"AppImage\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"devDependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron\": \"^22.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-builder\": \"^24.13.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-packager\": \"^17.1.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"glob\": \"^9.2.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"lru-cache\": \"^7.7.1\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdfjs-dist\": \"^4.4.168\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"python-shell\": \"^5.0.0\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        }
+    ],
+    "luakitch/AutoSyncPro-Electron": [
+        {
+            "package_name": "{",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"name\": \"AutoSyncPro\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"version\": \"1.0.42\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main\": \"main.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"scripts\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"start\": \"cross-env NODE_ENV=development electron .\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"prebuild\": \"rimraf dist\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": \"cross-env NODE_ENV=production electron-builder\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build:win\": \"cross-env NODE_ENV=production electron-builder --win\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"sign:win\": \"signtool sign /a /fd SHA256 /tr http://timestamp.sectigo.com /td SHA256 \\\"dist/AutoSyncPro-Setup-*.exe\\\"\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"release:checksum\": \"node update-manifest.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"release:publish\": \"node -e \\\"const { version } = require('./package.json'); const tagName = 'v' + version; const setupFilePath = `dist/AutoSyncPro-Setup-${version}.exe`; const blockmapFilePath = `${setupFilePath}.blockmap`; const ymlFilePath = 'dist/latest.yml'; const { execSync } = require('child_process'); console.log(`\\\\\\\\n\ud83d\udce6 Preparing to publish release ${tagName}...`); try { console.log('  - Creating git tag...'); execSync(`git tag ${tagName}`, { stdio: 'inherit' }); console.log('  - Pushing git tag to origin...'); execSync(`git push origin ${tagName}`, { stdio: 'inherit' }); console.log('  - Creating GitHub release and uploading assets...'); execSync(`gh release create ${tagName} --generate-notes --title \\\\\\\"AutoSyncPro ${tagName}\\\\\\\" \\\\\\\"${setupFilePath}\\\\\\\" \\\\\\\"${blockmapFilePath}\\\\\\\" \\\\\\\"${ymlFilePath}\\\\\\\"`, { stdio: 'inherit' }); console.log(`\\\\\\\\n\u2705 Successfully published release ${tagName}!`); } catch (e) { console.error(`\\\\\\\\n\u274c Publishing failed. Please check the error message above. Make sure you have committed all your changes and are authenticated with 'gh auth login'.`); process.exit(1); }\\\"\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"release:win\": \"rimraf dist && npm run build:win && npm run sign:win && npm run release:checksum && npm run release:publish\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"keywords\": [],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"author\": \"Acceling Software\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"license\": \"ISC\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"description\": \"AutoSyncPro Application\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"devDependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"cross-env\": \"^7.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron\": \"^33.0.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-builder\": \"latest\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-reload\": \"^2.0.0-alpha.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"js-yaml\": \"^4.1.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"rimraf\": \"^6.0.1\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dependencies\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"@azure/msal-node\": \"^3.6.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"@microsoft/microsoft-graph-client\": \"^3.0.7\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"@ringcentral/sdk\": \"^5.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"@turf/turf\": \"^7.2.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"axios\": \"^1.10.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"dotenv\": \"^16.5.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-context-menu\": \"^4.0.4\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"electron-updater\": \"^6.6.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"fernet\": \"^0.3.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"form-data\": \"^4.0.3\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"isomorphic-fetch\": \"^3.0.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"leaflet\": \"^1.9.4\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"lodash\": \"^4.17.21\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-forge\": \"^1.3.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"node-geocoder\": \"^4.4.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"p-limit\": \"^6.2.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pdf-lib\": \"^1.17.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"pg\": \"^8.13.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"plotly.js-dist-min\": \"^2.35.2\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"sql.js\": \"^1.12.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"topojson-client\": \"^3.1.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"us-atlas\": \"^3.0.1\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"uuid\": \"^11.1.0\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"xlsx\": \"^0.18.5\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"build\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"appId\": \"com.accelingsoftware.autosyncpro\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"productName\": \"AutoSyncPro\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"copyright\": \"Copyright \u00a9 2024 ${author}\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"directories\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"output\": \"dist\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"buildResources\": \"assets\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"files\": [",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"main.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"preload.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"renderer.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"index.html\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"splash.html\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"js/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"css/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"assets/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"templates/**/*\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"graphHelper.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"db.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"ability-db.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"settings-db.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"settings.js\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\".env\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"package.json\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "],",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"publish\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"provider\": \"github\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"owner\": \"luakitch\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"repo\": \"AutoSyncPro-Electron\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"private\": true",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"win\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"assets/ASP2.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": \"nsis\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"legalTrademarks\": \"AutoSyncPro is a trademark of Acceling Software.\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"forceCodeSigning\": false",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"nsis\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"oneClick\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"perMachine\": false,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"allowToChangeInstallationDirectory\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"allowElevation\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"deleteAppDataOnUninstall\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"createDesktopShortcut\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"createStartMenuShortcut\": true,",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"shortcutName\": \"AutoSyncPro\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"installerIcon\": \"assets/ASP2.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"uninstallerIcon\": \"assets/ASP2.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"installerHeaderIcon\": \"assets/ASP2.ico\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"artifactName\": \"${productName}-Setup-${version}.${ext}\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"mac\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"assets/ASP2.icns\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": \"dmg\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"category\": \"public.app-category.utilities\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "},",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"linux\": {",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"icon\": \"assets/ASP2.png\",",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "\"target\": \"AppImage\"",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        },
+        {
+            "package_name": "}",
+            "version": "N/A",
+            "ecosystem": "npm",
+            "source_file": "package.json"
+        }
+    ]
+}

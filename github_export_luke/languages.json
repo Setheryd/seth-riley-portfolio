@@ -1,0 +1,94 @@
+{
+    "luakitch/Acceling-Software": {
+        "HTML": 1282891,
+        "JavaScript": 562008,
+        "CSS": 218743,
+        "PHP": 8141
+    },
+    "luakitch/AccelingSoftware-WebApp": {
+        "JavaScript": 291416,
+        "CSS": 48330,
+        "HTML": 9642
+    },
+    "luakitch/Adhere": {
+        "JavaScript": 519295,
+        "CSS": 86103,
+        "HTML": 77573,
+        "Batchfile": 2502,
+        "Python": 1185
+    },
+    "luakitch/Adhere-Releases": {},
+    "luakitch/AiDGENT": {
+        "Python": 59709283,
+        "TeX": 4483244,
+        "HTML": 3899127,
+        "Tcl": 595088,
+        "C": 422944,
+        "Cython": 103976,
+        "C++": 85980,
+        "Fortran": 32298,
+        "PowerShell": 27403,
+        "Roff": 8595,
+        "Smarty": 8486,
+        "Shell": 6890,
+        "Batchfile": 4124,
+        "Meson": 3982,
+        "Forth": 3787,
+        "JavaScript": 3655,
+        "Nushell": 2779,
+        "Makefile": 604,
+        "Pascal": 16
+    },
+    "luakitch/AiDGENT-API": {
+        "Python": 115521,
+        "HTML": 7661,
+        "Dockerfile": 2127
+    },
+    "luakitch/AiDGENT-Basic": {
+        "JavaScript": 142405,
+        "HTML": 62742,
+        "CSS": 34234
+    },
+    "luakitch/AiDGENT-CM-Edition": {
+        "JavaScript": 264143,
+        "CSS": 110051,
+        "HTML": 107041,
+        "Batchfile": 1597,
+        "NSIS": 962
+    },
+    "luakitch/AiDGENT-CM-Edition-Archived": {
+        "JavaScript": 94166,
+        "CSS": 38725,
+        "HTML": 15815
+    },
+    "luakitch/AiDGENT-CME-WebApp": {
+        "JavaScript": 139042,
+        "CSS": 110035,
+        "HTML": 65843
+    },
+    "luakitch/AiDGENT-Premium": {
+        "JavaScript": 838886,
+        "HTML": 133611,
+        "CSS": 106319,
+        "Batchfile": 4005,
+        "NSIS": 962
+    },
+    "luakitch/AiDGENT-WebApp": {
+        "JavaScript": 481526,
+        "CSS": 102904,
+        "HTML": 74614
+    },
+    "luakitch/AiDGENT2.0": {
+        "Python": 53226,
+        "JavaScript": 27650,
+        "CSS": 12597,
+        "HTML": 11834
+    },
+    "luakitch/AutoSyncPro-Electron": {
+        "JavaScript": 1578563,
+        "CSS": 213007,
+        "HTML": 76016,
+        "Python": 1192,
+        "NSIS": 946
+    }
+}
