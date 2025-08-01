@@ -168,7 +168,7 @@ export default function HomePage() {
             <div className={styles.links}>
               <a href="https://github.com/Setheryd" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a href="https://www.linkedin.com/in/seth-riley/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a href="mailto:seth@rileyinvestmentgroup.com">seth@rileyinvestmentgroup.com</a>
+              <a href="mailto:seth@rileyinvestmentgroup.com">Email</a>
             </div>
           </div>
         </header>
