@@ -1,12 +1,162 @@
 ├── seth-riley-portfolio/
+    ├── .env
     ├── .gitignore
+    ├── Linkedin-Resume - Director of Innovation.txt
     ├── README.md
+    ├── Seth Riley Resume.pdf
+    ├── github_export.py
     ├── jsconfig.json
     ├── next.config.mjs
     ├── package-lock.json
     ├── package.json
     ├── project_tree_py.txt
     ├── tree.py
+    ├── .next/
+        ├── app-build-manifest.json
+        ├── build-manifest.json
+        ├── package.json
+        ├── prerender-manifest.json
+        ├── react-loadable-manifest.json
+        ├── routes-manifest.json
+        ├── trace
+        ├── cache/
+            ├── .rscinfo
+            ├── swc/
+                ├── plugins/
+                    ├── v7_windows_x86_64_17.0.0/
+            ├── webpack/
+                ├── client-development/
+                    ├── 0.pack.gz
+                    ├── 1.pack.gz
+                    ├── 2.pack.gz
+                    ├── 3.pack.gz
+                    ├── 4.pack.gz
+                    ├── 5.pack.gz
+                    ├── 6.pack.gz
+                    ├── 7.pack.gz
+                    ├── 8.pack.gz
+                    ├── index.pack.gz
+                    ├── index.pack.gz.old
+                ├── server-development/
+                    ├── 0.pack.gz
+                    ├── 1.pack.gz
+                    ├── 10.pack.gz
+                    ├── 2.pack.gz
+                    ├── 3.pack.gz
+                    ├── 4.pack.gz
+                    ├── 5.pack.gz
+                    ├── 6.pack.gz
+                    ├── 7.pack.gz
+                    ├── 8.pack.gz
+                    ├── 9.pack.gz
+                    ├── index.pack.gz
+                    ├── index.pack.gz.old
+        ├── server/
+            ├── app-paths-manifest.json
+            ├── interception-route-rewrite-manifest.js
+            ├── middleware-build-manifest.js
+            ├── middleware-manifest.json
+            ├── middleware-react-loadable-manifest.js
+            ├── next-font-manifest.js
+            ├── next-font-manifest.json
+            ├── pages-manifest.json
+            ├── server-reference-manifest.js
+            ├── server-reference-manifest.json
+            ├── webpack-runtime.js
+            ├── app/
+                ├── page.js
+                ├── page_client-reference-manifest.js
+                ├── favicon.ico/
+                    ├── route.js
+            ├── vendor-chunks/
+                ├── @swc.js
+                ├── next.js
+        ├── static/
+            ├── chunks/
+                ├── _app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js
+                ├── app-pages-internals.js
+                ├── main-app.js
+                ├── polyfills.js
+                ├── webpack.js
+                ├── app/
+                    ├── layout.js
+                    ├── page.js
+            ├── css/
+                ├── app/
+                    ├── layout.css
+                    ├── page.css
+            ├── development/
+                ├── _buildManifest.js
+                ├── _ssgManifest.js
+            ├── media/
+                ├── 569ce4b8f30dc480-s.p.woff2
+                ├── 747892c23ea88013-s.woff2
+                ├── 8d697b304b401681-s.woff2
+                ├── 93f479601ee12b01-s.p.woff2
+                ├── 9610d9e46709d722-s.woff2
+                ├── ba015fad6dcf6784-s.woff2
+            ├── webpack/
+                ├── 1416e15877f5459f.webpack.hot-update.json
+                ├── 43fbc821819e5cf0.webpack.hot-update.json
+                ├── 459a206f65aa03d1.webpack.hot-update.json
+                ├── 5d99ce5d67bfa961.webpack.hot-update.json
+                ├── 633457081244afec._.hot-update.json
+                ├── 926660ae892cfea1.webpack.hot-update.json
+                ├── 9d179ff60d7a30d6.webpack.hot-update.json
+                ├── a097561447c29494.webpack.hot-update.json
+                ├── a49a6a267a354938.webpack.hot-update.json
+                ├── a722e9125255b441.webpack.hot-update.json
+                ├── b8b3829eef3ffc19.webpack.hot-update.json
+                ├── d9e477627673e6ac.webpack.hot-update.json
+                ├── dfe491eac3114d9e.webpack.hot-update.json
+                ├── efb2e137d50f5c47.webpack.hot-update.json
+                ├── f791551061267849.webpack.hot-update.json
+                ├── webpack.1416e15877f5459f.hot-update.js
+                ├── webpack.43fbc821819e5cf0.hot-update.js
+                ├── webpack.459a206f65aa03d1.hot-update.js
+                ├── webpack.5d99ce5d67bfa961.hot-update.js
+                ├── webpack.926660ae892cfea1.hot-update.js
+                ├── webpack.9d179ff60d7a30d6.hot-update.js
+                ├── webpack.a097561447c29494.hot-update.js
+                ├── webpack.a49a6a267a354938.hot-update.js
+                ├── webpack.a722e9125255b441.hot-update.js
+                ├── webpack.b8b3829eef3ffc19.hot-update.js
+                ├── webpack.d9e477627673e6ac.hot-update.js
+                ├── webpack.dfe491eac3114d9e.hot-update.js
+                ├── webpack.efb2e137d50f5c47.hot-update.js
+                ├── webpack.f791551061267849.hot-update.js
+                ├── app/
+                    ├── page.1416e15877f5459f.hot-update.js
+                    ├── page.43fbc821819e5cf0.hot-update.js
+                    ├── page.459a206f65aa03d1.hot-update.js
+                    ├── page.5d99ce5d67bfa961.hot-update.js
+                    ├── page.926660ae892cfea1.hot-update.js
+                    ├── page.9d179ff60d7a30d6.hot-update.js
+                    ├── page.a097561447c29494.hot-update.js
+                    ├── page.a49a6a267a354938.hot-update.js
+                    ├── page.a722e9125255b441.hot-update.js
+                    ├── page.b8b3829eef3ffc19.hot-update.js
+                    ├── page.d9e477627673e6ac.hot-update.js
+                    ├── page.dfe491eac3114d9e.hot-update.js
+                    ├── page.efb2e137d50f5c47.hot-update.js
+                    ├── page.f791551061267849.hot-update.js
+        ├── types/
+            ├── cache-life.d.ts
+            ├── package.json
+            ├── app/
+                ├── layout.ts
+                ├── page.ts
+    ├── github_data_setheryd_20250801_133700/
+        ├── commits.csv
+        ├── commits.json
+        ├── dependencies.json
+        ├── languages.json
+        ├── repositories.json
+    ├── github_export_luke/
+        ├── commits.json
+        ├── dependencies.json
+        ├── languages.json
+        ├── repositories.json
     ├── public/
         ├── file.svg
         ├── globe.svg
@@ -20,3 +170,8 @@
             ├── layout.js
             ├── page.js
             ├── page.module.css
+            ├── components/
+                ├── Experience.js
+                ├── Hero.js
+                ├── Projects.js
+                ├── Skills.js
