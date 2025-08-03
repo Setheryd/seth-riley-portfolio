@@ -32,10 +32,9 @@
 /* --- Hero Section --- */
 .hero {
   text-align: center;
-  min-height: 90vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   align-items: center;
   padding: 6rem 0;
 }
@@ -369,5 +368,83 @@
     padding-top: 0;
     border-bottom: 1px solid var(--border-color);
     padding-bottom: 0.75rem;
+  }
+}
+
+/* --- NEW HERO STYLES WITH HEADSHOT (Add to bottom of page.module.css) --- */
+
+/* Keyframe for the rotating SVG frame */
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Redesigned Hero Section for side-by-side layout on desktop */
+.hero {
+  display: flex;
+  flex-direction: row; /* Change to row for side-by-side layout */
+  align-items: center; /* Vertically aligns items */
+  text-align: left; /* Align text to the left */
+  gap: 3rem;
+}
+
+.heroTextContainer {
+  max-width: 600px;
+}
+
+.heroImageContainer {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  flex-shrink: 0; /* Prevents the image from shrinking */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroImage {
+  border-radius: 50%;
+  border: 4px solid var(--border-color);
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  width: 100%;
+  height: 100%;
+}
+
+.heroImageFrame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: var(--accent-color);
+  stroke-width: 2px;
+  /* SVG Animation Magic */
+  stroke-dasharray: 302; /* Circumference of the circle (2 * pi * 48) */
+  stroke-dashoffset: 302;
+  animation: drawIn 2s ease-out 0.5s forwards, rotate 30s linear infinite;
+  animation-play-state: running; /* Ensure it runs */
+}
+
+/* --- Responsive adjustments for the new Hero layout --- */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column-reverse; /* Stacks image on top of text */
+    text-align: center; /* Center text on mobile */
+    gap: 2rem;
+  }
+
+  .heroTextContainer {
+    align-items: center;
+  }
+  
+  .heroActions {
+    justify-content: center; /* Center buttons on mobile */
+  }
+
+  .heroImageContainer {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 2rem;
   }
 }
