@@ -1,27 +1,17 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+// src/app/layout.js
+import './globals.css';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// The font is now imported directly in globals.css, so font loaders are not needed here.
 
 export const metadata = {
-  title: "Seth Riley | Software Engineer",
-  description: "The portfolio for Seth Riley, a software engineer specializing in building modern web applications.",
+  title: "Seth Riley | Data Engineer & AI Solutions Architect",
+  description: "The portfolio of Seth Riley, a technical leader specializing in data engineering, AI solutions, and full-stack development on Azure and OCI.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

@@ -1,39 +1,46 @@
 /* src/app/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+
 :root {
-  --font-sans: 'Inter', sans-serif;
-  --background-color: #f4f7f9;
-  --text-color: #333;
-  --primary-color: #0070f3;
-  --secondary-color: #1a1a1a;
-  --card-background: #ffffff;
-  --border-color: #eaeaea;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --background-start-rgb: 10, 10, 15;
+  --background-end-rgb: 25, 25, 35;
+  --text-primary: #e4e4e7; /* Off-white for main text */
+  --text-secondary: #a1a1aa; /* Lighter gray for subtitles */
+  --border-color: rgba(228, 228, 231, 0.1);
+  --card-background: rgba(24, 24, 27, 0.5);
+  --glow-color: rgba(0, 122, 255, 0.3); /* A subtle blue glow */
+  --accent-color: #007bff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: var(--font-sans);
 }
 
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--font-sans);
-  margin: 0;
-  padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: var(--secondary-color);
-  font-weight: 700;
+  color: var(--text-primary);
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--accent-color);
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
 }
 
 a:hover {
   text-decoration: underline;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');

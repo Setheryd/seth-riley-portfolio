@@ -1,287 +1,373 @@
 /* src/app/page.module.css */
 
-/* --- Keyframe Animations --- */
-@keyframes drawIn {
-  to {
-    stroke-dashoffset: 0;
-  }
+/* --- Dynamic Grid Background --- */
+.main {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  z-index: 1;
 }
 
-/* --- Background Frosted Glass Shapes --- */
-.backgroundShapes {
+.main::before {
+  content: '';
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background-image: 
+    linear-gradient(rgba(255,255,255,.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.07) 1px, transparent 1px);
+  background-size: 3rem 3rem;
+  z-index: -2;
+  animation: bg-scroll 10s linear infinite;
 }
 
-.shape1, .shape2 {
-  position: absolute;
-  transition: transform 0.5s ease-out; /* Smooth transitions for rotation */
-  will-change: transform;
-}
-
-.shape1 {
-  top: -20vh;
-  left: -25vw;
-  transform: rotate(calc(var(--scroll-progress, 0) * 45deg));
-}
-
-.shape2 {
-  bottom: -30vh;
-  right: -20vw;
-  transform: rotate(calc(var(--scroll-progress, 0) * -35deg));
-}
-
-/* Glassmorphism Effect for the shape containers */
-.shape1, .shape2 {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(40px);
-  -webkit-backdrop-filter: blur(40px); /* For Safari */
-  border-radius: 9999px; /* Make them blob-like */
-}
-
-/* SVG Path Animation */
-.shape1 svg path, .shape2 svg path {
-  stroke-dasharray: 2500; /* A large number to cover the path length */
-  stroke-dashoffset: 2500;
-  animation: drawIn 3s ease-out 0.5s forwards;
-}
-
-/* --- Main Layout --- */
-.main {
-  position: relative; /* Ensure main content is above background */
-  z-index: 1;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 2rem;
+@keyframes bg-scroll {
+  0% { background-position: 0 0; }
+  100% { background-position: 3rem 3rem; }
 }
 
 /* --- Hero Section --- */
 .hero {
   text-align: center;
-  padding: 8rem 0;
-  min-height: 80vh; /* Give it more space */
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
 }
 
-.title {
-  font-size: 3.5rem;
-  font-weight: 700;
-  color: var(--secondary-color);
-  margin-bottom: 0.75rem;
+.heroTitle {
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  background: linear-gradient(90deg, #fff, #a1a1aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5rem;
 }
 
-.subtitle {
-  font-size: 1.3rem;
-  color: #555;
-  margin-bottom: 1.5rem;
+.heroSubtitle {
+  font-size: 1.5rem;
   font-weight: 500;
-}
-
-.summary {
-  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
   max-width: 600px;
-  margin: 0 auto 2rem;
-  line-height: 1.6;
-  color: #333;
 }
 
-.links a {
-  margin: 0 1rem;
-  font-size: 1rem;
+.heroDescription {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-primary);
+  max-width: 650px;
+  margin-bottom: 2.5rem;
+}
+
+.heroActions {
+  display: flex;
+  gap: 1rem;
+}
+
+.ctaButton, .secondaryButton {
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
   font-weight: 500;
-  color: var(--primary-color);
-  text-decoration: none;
-  transition: color 0.2s;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
 }
 
-.links a:hover {
-  text-decoration: underline;
+.ctaButton {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+.ctaButton:hover {
+  background: #0069d9;
+  text-decoration: none;
+}
+
+.secondaryButton {
+  background: var(--card-background);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+}
+
+.secondaryButton:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
 }
 
 /* --- General Section Styles --- */
 .section {
-  padding: 4rem 0;
+  padding: 6rem 0;
 }
 
 .section h2 {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
+  font-weight: 700;
   text-align: center;
-  margin-bottom: 1rem;
-}
-
-.sectionSubtitle {
-  text-align: center;
-  font-size: 1rem;
-  color: #666;
-  max-width: 700px;
-  margin: 0 auto 2.5rem;
-}
-
-.sectionSubtitle em {
-  font-style: italic;
-  color: #888;
+  margin-bottom: 3rem;
+  letter-spacing: -0.02em;
 }
 
 /* --- Project Grid & Cards --- */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.6); /* Semi-transparent background for glass effect */
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 16px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  overflow: hidden; /* Important for containing the placeholder */
+  background: var(--card-background);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: transform 0.2s ease, border-color 0.2s ease;
   display: flex;
   flex-direction: column;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
-.assetPlaceholder {
-  height: 180px;
-  background-color: #e9ecef;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.cardContent {
-  padding: 1.5rem;
+.cardHeader {
   display: flex;
-  flex-direction: column;
-  flex-grow: 1; /* Allows the tags to be pushed to the bottom */
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
-.cardContent h3 {
-  margin-top: 0;
-  font-size: 1.5rem;
-  color: #111;
+.cardHeader h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
 }
-.cardContent h3 a {
+
+.cardHeader a {
+  color: var(--text-primary);
   text-decoration: none;
-  color: var(--primary-color);
 }
-.cardContent h3 a:hover {
-  text-decoration: underline;
+.cardHeader a:hover {
+  color: var(--accent-color);
 }
-.cardContent p {
-  font-size: 1rem;
+
+.privateBadge {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.card p {
+  font-size: 0.95rem;
   line-height: 1.6;
-  color: #444;
-  flex-grow: 1; /* Pushes tags to the bottom */
+  color: var(--text-secondary);
+  flex-grow: 1;
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .tags span {
-  background-color: rgba(0, 112, 243, 0.1);
-  color: var(--primary-color);
+  background-color: rgba(0, 123, 255, 0.15);
+  color: var(--accent-color);
   padding: 0.25rem 0.75rem;
-  border-radius: 12px;
-  font-size: 0.85rem;
-  font-weight: 600;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 
-/* --- Skills Section Layout --- */
-.skillsGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+/* --- Skills Section --- */
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
   gap: 2rem;
 }
 
-.skillsGrid h4 {
-  font-size: 1.2rem;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
+.skillCategory {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
 }
 
-.skillsGrid ul {
-  list-style: none;
-  padding: 0;
-}
-
-.skillsGrid li {
-  margin-bottom: 0.75rem;
+.skillCategory h4 {
   font-size: 1rem;
-  position: relative;
-  padding-left: 1.5rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  width: 200px; /* Aligns the categories */
+  flex-shrink: 0;
 }
 
-.skillsGrid li::before {
-  content: '✓';
-  position: absolute;
-  left: 0;
-  color: var(--primary-color);
+.skillItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skillItems span {
+  background: var(--card-background);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
 }
 
 /* --- Experience Timeline --- */
+.timeline {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 3px;
+  background-color: var(--border-color);
+  top: 0;
+  bottom: 0;
+  left: 1.5rem;
+  margin-left: -1.5px;
+}
+
 .timelineItem {
-  margin-bottom: 2rem;
-  padding-left: 1.5rem;
-  border-left: 3px solid var(--primary-color);
+  padding: 1rem 3rem;
+  position: relative;
+}
+
+.timelineItem::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 1.5rem;
+  top: 1.2rem;
+  background-color: var(--background-start-rgb);
+  border: 3px solid var(--accent-color);
+  border-radius: 50%;
+  z-index: 1;
+  margin-left: -10px;
 }
 
 .timelineItem h3 {
   margin-top: 0;
+  font-size: 1.25rem;
 }
+
+.timelineItem p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+.timelineItem p strong { color: var(--text-primary); font-weight: 500; }
+.timelineItem p em { color: var(--text-secondary); }
+
+.timelineItem ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.timelineItem li {
+  padding-left: 1.2rem;
+  position: relative;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-secondary);
+}
+
+.timelineItem li::before {
+  content: '✓';
+  color: var(--accent-color);
+  position: absolute;
+  left: 0;
+}
+
 
 /* --- MOBILE OPTIMIZATION --- */
 @media (max-width: 768px) {
-  .main {
-    padding: 0 1rem;
-  }
-  
-  .hero {
-    padding: 6rem 0;
-    min-height: 60vh;
-  }
-  
-  .title {
-    font-size: 2.5rem;
-  }
+  .heroTitle { font-size: 2.5rem; }
+  .heroSubtitle { font-size: 1.2rem; }
+  .grid { grid-template-columns: 1fr; }
+  .skillCategory { flex-direction: column; align-items: stretch; gap: 1rem; }
+  .skillCategory h4 { width: auto; }
+}
 
-  .subtitle {
-    font-size: 1.1rem;
-  }
-  
-  .grid {
-    grid-template-columns: 1fr; /* Stack cards vertically */
-  }
-  
-  .skillsGrid {
-    grid-template-columns: 1fr; /* Stack skills vertically */
-  }
+/* --- Skills Section (New Tag-Based Layout) --- */
+.skillsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem; /* More space between categories */
+}
 
-  /* Adjust background shapes for mobile to be less intrusive */
-  .shape1 {
-    top: -15vh;
-    left: -40vw;
-    transform: scale(0.8) rotate(calc(var(--scroll-progress, 0) * 45deg));
-  }
+.skillCategory {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
 
-  .shape2 {
-    bottom: -20vh;
-    right: -35vw;
-    transform: scale(0.8) rotate(calc(var(--scroll-progress, 0) * -35deg));
+.skillCategory h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  width: 220px; /* Aligns the categories neatly */
+  flex-shrink: 0;
+  padding-top: 0.5rem; /* Aligns title with first row of tags */
+}
+
+.skillItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skillItem {
+  background: var(--card-background);
+  border: 1px solid var(--border-color);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  transition: all 0.2s ease-in-out;
+}
+
+.skillItem:hover {
+  transform: translateY(-2px);
+  color: var(--text-primary);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* --- Remove old, unused skill styles --- */
+.skillsGrid,
+.skillsGrid h4,
+.skillsGrid ul,
+.skillsGrid li,
+.skillsGrid li::before {
+  all: unset; /* This disables all the old styling for the skills section */
+}
+
+/* Adjust for mobile */
+@media (max-width: 768px) {
+  .skillCategory {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  .skillCategory h4 {
+    width: auto;
+    padding-top: 0;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.75rem;
   }
 }

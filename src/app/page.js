@@ -75,56 +75,72 @@ const projects = [
   },
 ];
 
+// In src/app/page.js
 const skills = [
   {
-    category: "Languages & Databases",
-    items: ["Python", "JavaScript", "TypeScript", "SQL", "HTML/CSS", "MySQL", "MSSQL", "Oracle", "PostgreSQL", "Snowflake", "PySpark", "R"],
+    category: "Cloud & DevOps",
+    items: ["Azure (Container Apps, Data Factory)", "Oracle Cloud (OCI)", "Docker", "Git", "GitHub Actions (CI/CD)", "Cron", "Bash Scripting"],
   },
   {
-    category: "Frameworks & Tools",
-    items: ["FastAPI", "Node.js", "Express", "Vue.js", "Next.js", "React", "Electron", "Pandas", "Selenium", "Playwright", "Tableau", "Power BI", "Docker"],
+    category: "Data Engineering & Warehousing",
+    items: ["Python (Pandas, PySpark)", "SQL", "ETL / ELT", "Oracle", "PostgreSQL", "Snowflake", "Data Architecture", "Data Modeling", "Data Governance"],
   },
   {
-    category: "Platforms & Methodologies",
-    items: ["Git", "GitHub", "JIRA", "Firebase", "Vercel", "ETL/ELT", "Data Modeling", "Agile", "CI/CD", "Machine Learning", "NLP"],
+    category: "Backend & API Development",
+    items: ["Flask", "FastAPI", "Node.js", "Express.js", "REST APIs", "Webhooks", "Nginx", "API Design & Security", "Microservices"],
+  },
+  {
+    category: "AI & Machine Learning",
+    items: ["Google Gemini API", "Natural Language Processing (NLP)", "Predictive Modeling", "Scikit-learn", "Jupyter Notebooks", "LangChain"],
+  },
+  {
+    category: "Frontend & Visualization",
+    items: ["Next.js", "Vue.js", "React", "JavaScript/TypeScript", "Electron", "Tableau", "Power BI", "Metabase", "DAX"],
   },
 ];
 
 const experience = [
   {
-    title: "Director of Innovation / Lead Data Analyst",
-    company: "Acceling Software / Absolute Caregivers, LLC",
+    title: "Director of Data Engineering & AI Solutions",
+    company: "Acceling Software LLC",
+    duration: "July 2024 - Present",
+    details: [
+      "Spearheaded a multi-disciplinary engineering team to architect and deploy end-to-end data solutions, transforming raw data into monetizable API products.",
+      "Engineered a cloud data platform on Azure and OCI that successfully supported a 400% user base increase without performance degradation.",
+      "Delivered a 400% revenue uplift by launching a new API-first data product, managing the entire lifecycle from data ingestion to monetization.",
+      "Automated over 90% of manual data processing by deploying a fleet of resilient Playwright scrapers and ETL jobs.",
+    ],
+  },
+  {
+    title: "Director of Innovation and Intake",
+    company: "Absolute Caregivers, LLC",
     duration: "Mar 2022 – Present",
     details: [
-        "Lead the development of new software solutions and data strategies to drive business growth at Acceling Software.",
-        "Architect and build APIs, automation tools, and full-stack applications to solve complex business problems.",
-        "Analyze and interpret large-scale healthcare datasets at Absolute Caregivers to optimize business operations and improve patient outcomes.",
-        "Develop predictive models to forecast key metrics, resulting in a 15% increase in operational efficiency.",
-        "Create data visualizations and reports to communicate complex findings to management and stakeholders.",
+      "Architected and executed a complete overhaul of the patient intake and data management infrastructure, enabling a 400% increase in patient base capacity.",
+      "Championed the company's innovation strategy, deploying new technologies like predictive analytics and process automation tools.",
+      "Led quarterly, company-wide business intelligence presentations, translating complex performance metrics into actionable insights for executive leadership.",
+      "Developed and governed the enterprise data strategy, establishing KPIs and data governance policies.",
+    ],
+  },
+   {
+    title: "Lead Data Analyst",
+    company: "Ability Home Health LLC",
+    duration: "Mar 2022 – Present",
+    details: [
+      "Analyzed large-scale healthcare datasets to optimize business operations, contributing to a 15% increase in operational efficiency.",
+      "Developed and maintained Tableau dashboards for executive reporting on key healthcare metrics.",
     ],
   },
   {
-    title: "Data Integrity Analyst",
+    title: "Data Integrity & Project Coordination",
     company: "Custom Concrete",
-    duration: "Nov 2021 – Mar 2022",
+    duration: "Mar 2020 – Mar 2022",
     details: [
-      "Interpreted complex datasets from sales, marketing, and finance to identify business trends and areas for improvement.",
-      "Presented bi-monthly data analysis findings to upper management to inform strategic decision-making.",
-      "Collaborated on data analysis projects to uncover actionable insights through statistical techniques."
-    ],
-  },
-  {
-    title: "Residential Project Coordinator",
-    company: "Custom Concrete",
-    duration: "Mar 2020 – Nov 2021",
-    details: [
-      "Managed single-home construction projects valued at up to $15M by interpreting blueprints and project specifications.",
-      "Instituted the use of Microsoft Project to track timelines and costs, significantly improving project estimate accuracy.",
-      "Acted as a key liaison between corporate staff, construction teams, and vendors to ensure project alignment."
+      "Managed construction projects valued at up to $15M, leveraging MS Project to track timelines, analyze costs, and improve estimate accuracy.",
+      "Analyzed cross-departmental datasets (Sales, Finance) to identify performance trends and provide data-driven recommendations.",
     ],
   },
 ];
-
 
 export default function HomePage() {
   
