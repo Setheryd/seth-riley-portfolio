@@ -1,7 +1,6 @@
 // src/app/layout.js
 import './globals.css';
 
-// The font is now imported directly in globals.css, so font loaders are not needed here.
 
 export const metadata = {
   title: "Seth Riley | Data Engineer & AI Solutions Architect",
@@ -10,8 +9,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    // Add suppressHydrationWarning here
+    <html lang="en" suppressHydrationWarning>
+      {}
+      <body suppressHydrationWarning> 
+        {children}
+      </body>
     </html>
   );
 }

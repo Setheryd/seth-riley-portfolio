@@ -10,31 +10,31 @@ const websites = [
     name: "Acceling Software",
     description: "A software solutions provider specializing in automation and data engineering.",
     pages: [
-      { name: "Home", image: "/acceling-home1.png" },
-      { name: "Aidgent", image: "/aidgent 1.png" },
-      { name: "Adhere", image: "/adhere 1.png" },
-      { name: "Release Notes", image: "/release 1.png" },
+      { name: "Home", image: "/acceling-home1.webp" },
+      { name: "Aidgent", image: "/aidgent 1.webp" },
+      { name: "Adhere", image: "/adhere 1.webp" },
+      { name: "Release Notes", image: "/release 1.webp" },
     ]
   },
   {
     name: "Absolute Caregivers",
     description: "A home healthcare agency providing compassionate and professional care.",
     pages: [
-      { name: "Home", image: "/absolute 1.png" },
-      { name: "Services", image: "/absolute 2.png" },
-      { name: "VIP Care", image: "/absolute 3.png" },
-      { name: "Careers", image: "/absolute 4.png" },
-      { name: "South Bend", image: "/absolute 5.png" },
-      { name: "Blog", image: "/absolute 6.png" },
+      { name: "Home", image: "/absolute 1.webp" },
+      { name: "Services", image: "/absolute 2.webp" },
+      { name: "VIP Care", image: "/absolute 3.webp" },
+      { name: "Careers", image: "/absolute 4.webp" },
+      { name: "South Bend", image: "/absolute 5.webp" },
+      { name: "Blog", image: "/absolute 6.webp" },
     ]
   },
   {
     name: "Ability Home Health",
     description: "A trusted provider of in-home health services.",
     pages: [
-      { name: "Home", image: "/ability 1.png" },
-      { name: "Page 2", image: "/ability 2.png" },
-      { name: "Page 3", image: "/ability 3.png" },
+      { name: "Home", image: "/ability 1.webp" },
+      { name: "Page 2", image: "/ability 2.webp" },
+      { name: "Page 3", image: "/ability 3.webp" },
     ]
   },
 ];
