@@ -1,17 +1,6 @@
-'use client';
+// src/app/data.js
 
-import { useEffect } from 'react';
-import styles from './page.module.css'; 
-import Hero from './components/Hero';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Websites from './components/Websites';
-import Experience from './components/Experience';
-
-
-
-// --- DATA ---
-const projects = [
+export const projects = [
   {
     name: "Adhere-API",
     href: "https://github.com/Setheryd/Adhere-API",
@@ -77,8 +66,7 @@ const projects = [
   },
 ];
 
-// In src/app/page.js
-const skills = [
+export const skills = [
   {
     category: "Cloud & DevOps",
     items: ["Azure (Container Apps, Data Factory)", "Oracle Cloud (OCI)", "Docker", "Git", "GitHub Actions (CI/CD)", "Cron", "Bash Scripting"],
@@ -101,7 +89,7 @@ const skills = [
   },
 ];
 
-const experience = [
+export const experience = [
   {
     title: "Director of Data Engineering & AI Solutions",
     company: "Acceling Software LLC",
@@ -143,30 +131,3 @@ const experience = [
     ],
   },
 ];
-
-export default function HomePage() {
-  
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollProgress = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
-      document.body.style.setProperty('--scroll-progress', scrollProgress);
-    };
-
-    window.addEventListener('scroll', handleScroll, { passive: true });
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
-  return (
-    <>
-      <main className={styles.main}>
-        <Hero />
-        <Projects projects={projects} />
-        <Skills skills={skills} />
-        <Websites />
-        <Experience experience={experience} />
-      </main>
-    </>
-  );
-}

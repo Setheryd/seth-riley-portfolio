@@ -1,0 +1,112 @@
+/* src/app/components/Websites.module.css */
+
+.websitesGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+
+}
+
+.websiteCard {
+  background: transparent;
+  border-radius: 24px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  perspective: 2000px; /* Increased perspective for a smoother 3D feel */
+}
+
+.carouselContainer {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+/* RE-ADDED a slower, smoother spin animation */
+@keyframes spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  /* Re-enabled the continuous animation */
+  animation: spin 45s infinite linear; /* Slower 45-second rotation */
+}
+
+.carouselItem {
+  position: absolute;
+  width: 80%; /* Slightly smaller items to help with spacing */
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  overflow: hidden;
+  border-radius: 18px;
+  border: 1px solid var(--border-color);
+  background: var(--card-background);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  backface-visibility: hidden;
+}
+
+.websiteImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.websiteInfo {
+  text-align: center;
+}
+
+.websiteInfo h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.websiteInfo p {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  max-width: 500px;
+  margin-bottom: 1.5rem;
+}
+
+.pageIndicator {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--border-color);
+  transition: background-color 0.3s;
+}
+
+.dotActive {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carouselContainer {
+    height: 300px;
+  }
+
+  .carouselItem {
+    width: 100%;
+    left: 0;
+  }
+}

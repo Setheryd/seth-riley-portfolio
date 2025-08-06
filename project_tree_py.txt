@@ -1,4 +1,5 @@
-├── seth-riley-portfolio-3/
+├── seth-riley-portfolio/
+    ├── .env
     ├── .gitignore
     ├── Linkedin-Resume - Director of Innovation.txt
     ├── Profile (1).pdf
@@ -11,6 +12,163 @@
     ├── package.json
     ├── project_tree_py.txt
     ├── tree.py
+    ├── .next/
+        ├── app-build-manifest.json
+        ├── build-manifest.json
+        ├── package.json
+        ├── prerender-manifest.json
+        ├── react-loadable-manifest.json
+        ├── routes-manifest.json
+        ├── trace
+        ├── cache/
+            ├── .rscinfo
+            ├── images/
+                ├── zwA-qCaLqQ7lwKfwbh1XXOY-kVgvPYd0AjdYr_G2Ync/
+                    ├── 60.1754488266821.VbUW1_u2RarQ0QNEzL6WK_2inPX5pGKt0o5hVXL80P8.Vy8iMTc1MDMzLTE5ODdmYTU2YzU4Ig.webp
+            ├── swc/
+                ├── plugins/
+                    ├── v7_windows_x86_64_17.0.0/
+            ├── webpack/
+                ├── client-development/
+                    ├── 0.pack.gz
+                    ├── 1.pack.gz
+                    ├── 10.pack.gz
+                    ├── 11.pack.gz
+                    ├── 12.pack.gz
+                    ├── 13.pack.gz
+                    ├── 2.pack.gz
+                    ├── 3.pack.gz
+                    ├── 4.pack.gz
+                    ├── 5.pack.gz
+                    ├── 6.pack.gz
+                    ├── 7.pack.gz
+                    ├── 8.pack.gz
+                    ├── 9.pack.gz
+                    ├── index.pack.gz
+                    ├── index.pack.gz.old
+                ├── client-development-fallback/
+                    ├── 0.pack.gz
+                    ├── index.pack.gz
+                ├── server-development/
+                    ├── 0.pack.gz
+                    ├── 1.pack.gz
+                    ├── 10.pack.gz
+                    ├── 11.pack.gz
+                    ├── 12.pack.gz
+                    ├── 13.pack.gz
+                    ├── 14.pack.gz
+                    ├── 15.pack.gz
+                    ├── 2.pack.gz
+                    ├── 3.pack.gz
+                    ├── 4.pack.gz
+                    ├── 5.pack.gz
+                    ├── 6.pack.gz
+                    ├── 7.pack.gz
+                    ├── 8.pack.gz
+                    ├── 9.pack.gz
+                    ├── index.pack.gz
+                    ├── index.pack.gz.old
+        ├── server/
+            ├── app-paths-manifest.json
+            ├── interception-route-rewrite-manifest.js
+            ├── middleware-build-manifest.js
+            ├── middleware-manifest.json
+            ├── middleware-react-loadable-manifest.js
+            ├── next-font-manifest.js
+            ├── next-font-manifest.json
+            ├── pages-manifest.json
+            ├── server-reference-manifest.js
+            ├── server-reference-manifest.json
+            ├── webpack-runtime.js
+            ├── app/
+                ├── page.js
+                ├── page_client-reference-manifest.js
+                ├── favicon.ico/
+                    ├── route.js
+                ├── _not-found/
+                    ├── page.js
+                    ├── page_client-reference-manifest.js
+            ├── vendor-chunks/
+                ├── @swc.js
+                ├── next.js
+        ├── static/
+            ├── chunks/
+                ├── _app-pages-browser_node_modules_next_dist_client_dev_noop-turbopack-hmr_js.js
+                ├── app-pages-internals.js
+                ├── main-app.js
+                ├── polyfills.js
+                ├── webpack.js
+                ├── app/
+                    ├── layout.js
+                    ├── page.js
+                    ├── _not-found/
+                        ├── page.js
+            ├── css/
+                ├── app/
+                    ├── layout.css
+                    ├── page.css
+            ├── development/
+                ├── _buildManifest.js
+                ├── _ssgManifest.js
+            ├── media/
+                ├── 569ce4b8f30dc480-s.p.woff2
+                ├── 747892c23ea88013-s.woff2
+                ├── 8d697b304b401681-s.woff2
+                ├── 93f479601ee12b01-s.p.woff2
+                ├── 9610d9e46709d722-s.woff2
+                ├── ba015fad6dcf6784-s.woff2
+                ├── headshot.eb91a521.png
+            ├── webpack/
+                ├── 031848ed67216128.webpack.hot-update.json
+                ├── 06af20462c331a6c.webpack.hot-update.json
+                ├── 204cfb4c4ab00fbf.webpack.hot-update.json
+                ├── 22a996330bea5450.webpack.hot-update.json
+                ├── 35d7d85ecf276e27.webpack.hot-update.json
+                ├── 440c2af85185600d.webpack.hot-update.json
+                ├── 562bf38002416bad.webpack.hot-update.json
+                ├── 633457081244afec._.hot-update.json
+                ├── 6639b6457e358488.webpack.hot-update.json
+                ├── 8937c5f0f862b817.webpack.hot-update.json
+                ├── 8b740902ea492e6c.webpack.hot-update.json
+                ├── 8f34345d700255ee.webpack.hot-update.json
+                ├── 937bc6a450c7cda3.webpack.hot-update.json
+                ├── bf2891eafda7de2b.webpack.hot-update.json
+                ├── f5991acf1fde4bfa.webpack.hot-update.json
+                ├── webpack.031848ed67216128.hot-update.js
+                ├── webpack.06af20462c331a6c.hot-update.js
+                ├── webpack.204cfb4c4ab00fbf.hot-update.js
+                ├── webpack.22a996330bea5450.hot-update.js
+                ├── webpack.35d7d85ecf276e27.hot-update.js
+                ├── webpack.440c2af85185600d.hot-update.js
+                ├── webpack.562bf38002416bad.hot-update.js
+                ├── webpack.6639b6457e358488.hot-update.js
+                ├── webpack.8937c5f0f862b817.hot-update.js
+                ├── webpack.8b740902ea492e6c.hot-update.js
+                ├── webpack.8f34345d700255ee.hot-update.js
+                ├── webpack.937bc6a450c7cda3.hot-update.js
+                ├── webpack.bf2891eafda7de2b.hot-update.js
+                ├── webpack.f5991acf1fde4bfa.hot-update.js
+                ├── app/
+                    ├── layout.562bf38002416bad.hot-update.js
+                    ├── layout.8b740902ea492e6c.hot-update.js
+                    ├── page.031848ed67216128.hot-update.js
+                    ├── page.06af20462c331a6c.hot-update.js
+                    ├── page.204cfb4c4ab00fbf.hot-update.js
+                    ├── page.22a996330bea5450.hot-update.js
+                    ├── page.35d7d85ecf276e27.hot-update.js
+                    ├── page.562bf38002416bad.hot-update.js
+                    ├── page.6639b6457e358488.hot-update.js
+                    ├── page.8937c5f0f862b817.hot-update.js
+                    ├── page.8f34345d700255ee.hot-update.js
+                    ├── page.937bc6a450c7cda3.hot-update.js
+                    ├── page.bf2891eafda7de2b.hot-update.js
+                    ├── page.f5991acf1fde4bfa.hot-update.js
+        ├── types/
+            ├── cache-life.d.ts
+            ├── package.json
+            ├── app/
+                ├── layout.ts
+                ├── page.ts
     ├── github_data_setheryd_20250801_133700/
         ├── commits.csv
         ├── commits.json
@@ -23,20 +181,43 @@
         ├── languages.json
         ├── repositories.json
     ├── public/
+        ├── ability 1.png
+        ├── ability 2.png
+        ├── ability 3.png
+        ├── absolute 1.png
+        ├── absolute 2.png
+        ├── absolute 3.png
+        ├── absolute 4.png
+        ├── absolute 5.png
+        ├── absolute 6.png
+        ├── acceling-home1.png
+        ├── acceling-home2.png
+        ├── adhere 1.png
+        ├── adhere 2.png
+        ├── adhere 3.png
+        ├── aidgent 1.png
+        ├── aidgent 2.png
+        ├── aidgent 3.png
         ├── file.svg
         ├── globe.svg
         ├── next.svg
+        ├── release 1.png
         ├── vercel.svg
         ├── window.svg
     ├── src/
         ├── app/
+            ├── data.js
             ├── favicon.ico
             ├── globals.css
             ├── layout.js
             ├── page.js
             ├── page.module.css
+            ├── assets/
+                ├── headshot.png
             ├── components/
                 ├── Experience.js
                 ├── Hero.js
                 ├── Projects.js
                 ├── Skills.js
+                ├── Websites.js
+                ├── Websites.module.css
