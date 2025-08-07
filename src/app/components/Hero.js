@@ -11,8 +11,8 @@ const Hero = () => (
         I architect and build scalable, end-to-end data systems that transform complex information into valuable, monetizable API products and intelligent business solutions.
       </p>
       <div className={styles.heroActions}>
-        <a href="#projects" className={`${styles.ctaButton} hover-lift button-gradient`}>View My Work</a>
-        <a href="https://www.linkedin.com/in/seth-riley" target="_blank" rel="noopener noreferrer" className={`${styles.secondaryButton} hover-lift button-gradient`}>Connect on LinkedIn</a>
+        <a href="#projects" className={`${styles.ctaButton} hover-lift work-frosted-glass`}>View My Work</a>
+        <a href="https://www.linkedin.com/in/seth-riley" target="_blank" rel="noopener noreferrer" className={`${styles.secondaryButton} hover-lift linkedin-frosted-glass`}>Connect on LinkedIn</a>
       </div>
     </div>
 
