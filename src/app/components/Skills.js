@@ -3,7 +3,7 @@ import styles from '@/app/page.module.css';
 
 const Skills = ({ skills }) => (
   <section id="skills" className={`${styles.section} gradient-bg`}>
-    <h2 className={`${styles.sectionTitle} fade-in-up text-glow`}>Core Technologies & Stack</h2>
+    <h2 className={`${styles.sectionTitle} fade-in-up hero-gradient`}>Core Technologies & Stack</h2>
     <div className={styles.skillsContainer}>
       {skills.map((skillGroup, categoryIndex) => (
         <div className={`${styles.skillCategory} fade-in-up`} key={skillGroup.category} style={{ animationDelay: `${categoryIndex * 0.2}s` }}>
@@ -12,7 +12,7 @@ const Skills = ({ skills }) => (
             {skillGroup.items.map((item, skillIndex) => (
               <span 
                 key={item} 
-                className={`${styles.skillItem} animated-svg hover-lift`}
+                className={`${styles.skillItem} animated-svg hover-lift subtle-glow`}
                 style={{ animationDelay: `${(categoryIndex * 0.2) + (skillIndex * 0.05)}s` }}
               >
                 {item}

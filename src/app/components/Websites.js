@@ -61,7 +61,7 @@ const WebsiteCard = ({ website }) => {
   }, [website.pages.length]);
 
   return (
-    <div className={`${styles.websiteCard} magnetic-card hover-lift glow-border`}>
+    <div className={`${styles.websiteCard} magnetic-card hover-lift card-glow`}>
       <div className={styles.carouselContainer}>
         {/* The style prop for rotation has been removed to allow the CSS animation to take over. */}
         <div className={styles.carousel}>
@@ -102,7 +102,7 @@ const WebsiteCard = ({ website }) => {
 export default function Websites() {
   return (
     <section className={`${pageStyles.section} gradient-bg`}>
-      <h2 className={`${pageStyles.sectionTitle} fade-in-up text-glow`}>My Websites</h2>
+      <h2 className={`${pageStyles.sectionTitle} fade-in-up hero-gradient`}>My Websites</h2>
       <div className={styles.websitesGrid}>
         {websites.map((site, index) => (
           <div key={site.name} className="fade-in-up" style={{ animationDelay: `${index * 0.2}s` }}>

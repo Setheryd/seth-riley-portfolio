@@ -2,7 +2,7 @@ import styles from '@/app/page.module.css';
 
 const Projects = ({ projects }) => (
   <section id="projects" className={`${styles.section} gradient-bg`}>
-    <h2 className={`${styles.sectionTitle} fade-in-up text-glow`}>Featured Projects</h2>
+    <h2 className={`${styles.sectionTitle} fade-in-up hero-gradient`}>Featured Projects</h2>
     <p className={`${styles.sectionSubtitle} fade-in-up`}>
       Here is a selection of my work.
       <em> Note: Some repositories are private to protect sensitive information and will not have public links.</em>
@@ -10,7 +10,7 @@ const Projects = ({ projects }) => (
     <div className={styles.grid}>
       {projects.map((project, index) => (
         <div 
-          className={`${styles.card} magnetic-card glow-border hover-lift fade-in-up`} 
+          className={`${styles.card} magnetic-card card-glow hover-lift fade-in-up`} 
           key={project.name}
           style={{ animationDelay: `${index * 0.1}s` }}
         >

@@ -5,14 +5,14 @@ import headshot from '@/app/assets/headshot.png';
 const Hero = () => (
   <section className={`${styles.hero} gradient-bg`}>
     <div className={`${styles.heroTextContainer} fade-in-left`}>
-      <h1 className={`${styles.heroTitle} text-glow`}>Seth Riley</h1>
+      <h1 className={`${styles.heroTitle} hero-gradient`}>Seth Riley</h1>
       <h2 className={`${styles.heroSubtitle} typewriter`}>Data Engineer & AI Solutions Architect</h2>
       <p className={styles.heroDescription}>
         I architect and build scalable, end-to-end data systems that transform complex information into valuable, monetizable API products and intelligent business solutions.
       </p>
       <div className={styles.heroActions}>
-        <a href="#projects" className={`${styles.ctaButton} hover-lift neon-glow`}>View My Work</a>
-        <a href="https://www.linkedin.com/in/seth-riley" target="_blank" rel="noopener noreferrer" className={`${styles.secondaryButton} hover-lift`}>Connect on LinkedIn</a>
+        <a href="#projects" className={`${styles.ctaButton} hover-lift button-gradient`}>View My Work</a>
+        <a href="https://www.linkedin.com/in/seth-riley" target="_blank" rel="noopener noreferrer" className={`${styles.secondaryButton} hover-lift button-gradient`}>Connect on LinkedIn</a>
       </div>
     </div>
 
