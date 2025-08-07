@@ -1,5 +1,6 @@
 /* src/app/globals.css */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap');
+@import './visual-effects.css';
 
 :root {
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -43,4 +44,20 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+/* --- Reduced Motion Support --- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  .mouse-follow,
+  .grid-bg-animated::before {
+    display: none;
+  }
 }

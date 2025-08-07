@@ -2,6 +2,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import styles from './Websites.module.css';
+import pageStyles from '@/app/page.module.css';
 import Image from 'next/image';
 
 // --- DATA ---
@@ -60,14 +61,14 @@ const WebsiteCard = ({ website }) => {
   }, [website.pages.length]);
 
   return (
-    <div className={styles.websiteCard}>
+    <div className={`${styles.websiteCard} magnetic-card hover-lift glow-border`}>
       <div className={styles.carouselContainer}>
         {/* The style prop for rotation has been removed to allow the CSS animation to take over. */}
         <div className={styles.carousel}>
           {website.pages.map((page, index) => (
             <div
               key={page.name}
-              className={styles.carouselItem}
+              className={`${styles.carouselItem} animated-svg`}
               style={{
                 // The transform is now set with a DYNAMICALLY CALCULATED radius (translateZ).
                 transform: `rotateY(${index * angle}deg) translateZ(${radius}px)`,
@@ -78,7 +79,7 @@ const WebsiteCard = ({ website }) => {
                 alt={`${website.name} - ${page.name}`} 
                 width={1920} 
                 height={1080}
-                className={styles.websiteImage} 
+                className={`${styles.websiteImage} animated-svg`} 
                 priority={index === 0} 
               />
             </div>
@@ -86,11 +87,11 @@ const WebsiteCard = ({ website }) => {
         </div>
       </div>
       <div className={styles.websiteInfo}>
-        <h3>{website.name}</h3>
+        <h3 className="text-glow">{website.name}</h3>
         <p>{website.description}</p>
         <div className={styles.pageIndicator}>
           {website.pages.map((page, index) => (
-            <span key={index} className={index === activeIndex ? styles.dotActive : styles.dot}></span>
+            <span key={index} className={`${index === activeIndex ? styles.dotActive : styles.dot} animated-svg`}></span>
           ))}
         </div>
       </div>
@@ -100,11 +101,13 @@ const WebsiteCard = ({ website }) => {
 
 export default function Websites() {
   return (
-    <section className="section">
-      <h2>My Websites</h2>
+    <section className={`${pageStyles.section} gradient-bg`}>
+      <h2 className={`${pageStyles.sectionTitle} fade-in-up text-glow`}>My Websites</h2>
       <div className={styles.websitesGrid}>
-        {websites.map((site) => (
-          <WebsiteCard key={site.name} website={site} />
+        {websites.map((site, index) => (
+          <div key={site.name} className="fade-in-up" style={{ animationDelay: `${index * 0.2}s` }}>
+            <WebsiteCard website={site} />
+          </div>
         ))}
       </div>
     </section>

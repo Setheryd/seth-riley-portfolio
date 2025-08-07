@@ -103,14 +103,16 @@
 /* --- General Section Styles --- */
 .section {
   padding: 6rem 0;
+  composes: section-transition from './visual-effects.css';
 }
 
-.section h2 {
+.sectionTitle {
   font-size: 2.75rem;
   font-weight: 700;
   text-align: center;
   margin-bottom: 3rem;
   letter-spacing: -0.02em;
+  composes: text-reveal from './visual-effects.css';
 }
 
 /* --- Project Grid & Cards --- */
@@ -294,6 +296,58 @@
 }
 
 
+/* --- Refined Visual Effects --- */
+
+/* Elegant card hover effects */
+.card {
+  composes: card-hover from './visual-effects.css';
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(228, 228, 231, 0.2);
+}
+
+/* Refined button effects */
+.ctaButton {
+  composes: button-elegant from './visual-effects.css';
+}
+
+.ctaButton:hover {
+  background: #0069d9;
+  transform: translateY(-2px);
+}
+
+.secondaryButton {
+  composes: button-elegant from './visual-effects.css';
+}
+
+.secondaryButton:hover {
+  background: rgba(228, 228, 231, 0.1);
+  border-color: rgba(228, 228, 231, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Elegant timeline effects */
+.timeline {
+  composes: timeline-elegant from './visual-effects.css';
+}
+
+.timelineItem {
+  composes: timeline-item-elegant from './visual-effects.css';
+}
+
+/* Refined skill items */
+.skillItem {
+  composes: skill-tag-elegant from './visual-effects.css';
+}
+
+.skillItem:hover {
+  transform: translateY(-2px);
+  color: var(--text-primary);
+  border-color: rgba(0, 123, 255, 0.3);
+}
+
 /* --- MOBILE OPTIMIZATION --- */
 @media (max-width: 768px) {
   .heroTitle { font-size: 2.5rem; }
@@ -379,6 +433,13 @@
   to { transform: rotate(360deg); }
 }
 
+/* Keyframe for drawing in the SVG frame */
+@keyframes drawIn {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
 /* Redesigned Hero Section for side-by-side layout on desktop */
 .hero {
   display: flex;
@@ -408,6 +469,7 @@
   object-fit: cover; /* Ensures the image covers the area without distortion */
   width: 100%;
   height: 100%;
+  composes: hero-image-elegant from './visual-effects.css';
 }
 
 .heroImageFrame {
