@@ -107,6 +107,70 @@
   }
 }
 
+@keyframes conicGradientShift {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+@keyframes cornerAccentShift {
+  0%, 100% {
+    background-position: 0% 0%, 100% 100%;
+  }
+  25% {
+    background-position: 100% 0%, 0% 100%;
+  }
+  50% {
+    background-position: 100% 100%, 0% 0%;
+  }
+  75% {
+    background-position: 0% 100%, 100% 0%;
+  }
+}
+
+@keyframes svgBorderMove {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+@keyframes sparkleRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
 /* --- Refined Card Hover Effects --- */
 .card-hover {
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -212,6 +276,129 @@
 .card-glow:hover::before {
   opacity: 1;
   animation: gradientShift 2s ease infinite;
+}
+
+/* --- Project Card Unique Effects --- */
+.project-card-glow {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.project-card-glow::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 14px;
+  background: conic-gradient(
+    from 0deg,
+    #c0c0c0,
+    #007bff,
+    #4a90e2,
+    #c0c0c0,
+    #007bff,
+    #4a90e2,
+    #c0c0c0
+  );
+  background-size: 400% 400%;
+  animation: conicGradientShift 8s linear infinite;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: -1;
+}
+
+.project-card-glow:hover::before {
+  opacity: 0.9;
+  animation: conicGradientShift 3s linear infinite;
+}
+
+/* --- Project Card Corner Accents --- */
+.project-card-glow::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 12px;
+  background: 
+    linear-gradient(45deg, transparent 30%, rgba(192, 192, 192, 0.3) 50%, transparent 70%),
+    linear-gradient(-45deg, transparent 30%, rgba(0, 123, 255, 0.3) 50%, transparent 70%);
+  background-size: 200% 200%, 200% 200%;
+  background-position: 0% 0%, 100% 100%;
+  animation: cornerAccentShift 6s ease-in-out infinite;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: -1;
+}
+
+.project-card-glow:hover::after {
+  opacity: 0.6;
+  animation: cornerAccentShift 2s ease-in-out infinite;
+}
+
+/* --- Project Card SVG Border Animation --- */
+.project-svg-border {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.project-svg-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 12px;
+  background: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%23c0c0c0;stop-opacity:1' /%3E%3Cstop offset='25%25' style='stop-color:%23007bff;stop-opacity:1' /%3E%3Cstop offset='50%25' style='stop-color:%234a90e2;stop-opacity:1' /%3E%3Cstop offset='75%25' style='stop-color:%23c0c0c0;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%23007bff;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='2' y='2' width='96' height='96' rx='8' fill='none' stroke='url(%23grad)' stroke-width='2' stroke-dasharray='20,10'/%3E%3C/svg%3E");
+  background-size: 100px 100px;
+  animation: svgBorderMove 4s linear infinite;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: -1;
+}
+
+.project-svg-border:hover::before {
+  opacity: 0.8;
+  animation: svgBorderMove 2s linear infinite;
+}
+
+/* --- Project Card Pulse Effect --- */
+.project-pulse {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.project-pulse::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 12px;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(192, 192, 192, 0.2) 0%,
+    rgba(0, 123, 255, 0.1) 30%,
+    rgba(74, 144, 226, 0.05) 60%,
+    transparent 100%
+  );
+  animation: pulseGlow 4s ease-in-out infinite;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: -1;
+}
+
+.project-pulse:hover::before {
+  opacity: 1;
+  animation: pulseGlow 2s ease-in-out infinite;
 }
 
 /* --- Hero Title Gradient Animation --- */
@@ -445,6 +632,29 @@
   transform: translateY(-3px);
   border-color: rgba(0, 123, 255, 0.5);
   box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+}
+
+/* --- Project Tag Simple Hover Effects --- */
+.project-tag-glow {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.project-tag-glow:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+  border-color: rgba(0, 123, 255, 0.3);
+}
+
+/* --- Project Tag Sparkle Effect --- */
+.project-tag-sparkle {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.project-tag-sparkle:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(192, 192, 192, 0.3);
 }
 
 /* --- Smooth Section Transitions --- */

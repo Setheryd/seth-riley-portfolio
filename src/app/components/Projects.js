@@ -10,7 +10,7 @@ const Projects = ({ projects }) => (
     <div className={styles.grid}>
       {projects.map((project, index) => (
         <div 
-          className={`${styles.card} magnetic-card card-glow hover-lift fade-in-up`} 
+          className={`${styles.card} magnetic-card project-card-glow project-svg-border project-pulse hover-lift fade-in-up`} 
           key={project.name}
           style={{ animationDelay: `${index * 0.1}s` }}
         >
@@ -24,11 +24,11 @@ const Projects = ({ projects }) => (
               )}
             </h3>
             <p>{project.description}</p>
-            <div className={styles.tags}>
-              {project.tags.map(tag => (
-                <span key={tag} className="animated-svg">{tag}</span>
-              ))}
-            </div>
+                         <div className={styles.tags}>
+               {project.tags.map(tag => (
+                 <span key={tag} className="animated-svg project-tag-glow project-tag-sparkle">{tag}</span>
+               ))}
+             </div>
           </div>
         </div>
       ))}
