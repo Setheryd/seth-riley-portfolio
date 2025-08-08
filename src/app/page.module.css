@@ -469,6 +469,8 @@
   object-fit: cover; /* Ensures the image covers the area without distortion */
   width: 100%;
   height: 100%;
+  position: relative;
+  z-index: 2; /* Ensure headshot sits above decorative layers */
   composes: hero-image-elegant from './visual-effects.css';
 }
 
@@ -486,6 +488,8 @@
   stroke-dashoffset: 302;
   animation: drawIn 2s ease-out 0.5s forwards, rotate 30s linear infinite;
   animation-play-state: running; /* Ensure it runs */
+  z-index: 1; /* Below the photo but above background */
+  pointer-events: none;
 }
 
 /* --- Responsive adjustments for the new Hero layout --- */
